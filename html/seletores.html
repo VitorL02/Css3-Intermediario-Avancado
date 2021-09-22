@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores - Avançados </title>
+    <link rel="stylesheet" href="../css/seletores.css">
+</head>
+<body>
+    <!-- Seletor universal que faz referencia ao css na style.css -->
+        <p>Primeiro Seletor Simples</p>
+            <div>
+                <h1 id="cabecalho">Titulo Principal</h1>
+                <p>paragrafo principal</p>
+            </div>
+                <div>
+                    <p class="seletor-porclasse">Teste Paragrafo</p>
+                    <span class = 'verde'>Formatação de classe geral</span>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="index.html"> Sobre </a> <br>
+                            <!-- Somente os filhos herdam as caracteristicas  -->
+                            <span>
+                                <a href="">Sobre 1.0</a>
+                            </span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <a href="">Teste</a>
+                    </ul>
+                    <p>
+                        <a href="">Teste 2 </a> <br>
+                        <span><a href=""> Teste 2.1 </a> </span>
+                    </p>
+                </div>
+                    <div id="irmao-adjacente">
+                        <h2>Irmao adjacente </h2>
+                        <h3>Irmao adjacente 2</h3>
+                        <h3>Irmao adjacente 3</h3>
+                    </div>
+                        <div id="irmao-geral">
+                            <h4>Irmao geral</h4>
+                            <p>Irmao geral 2</p>
+                            <p>Irmao geral 3</p>
+                        </div>
+</body>
+</html>

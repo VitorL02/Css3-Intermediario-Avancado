@@ -1,0 +1,44 @@
+/* Seletor Universal no CSS3 */
+*{
+
+    font-size: 20px;
+}
+
+/* Seletor de texto */
+h1{
+    color:goldenrod;
+}
+
+.verde{
+    color: indianred;
+}
+
+/* Seletor por classe especifica */
+p.seletor-porclasse{
+    color: hotpink;
+}
+ /* Seletor por id */
+#cabecalho{
+    border: 2px  solid  royalblue;
+}
+
+/* Seletor de filho,que so pode ser usado a "filhos" de LI   e possivel usar com qualquer elemento , divs,spans entre outros  */
+li>a{
+    color: red;
+    text-decoration: none;
+}
+
+/* Seletor de descendente (Elementos que estão dentro do elemento selecionado )  */
+p a{
+color: khaki ;
+}
+
+/* Seletor de Irmãos Adjacentes seleciona o item posterior ao mesmo item */
+h2+h3{
+    color: lightgreen;
+}
+/* Seletor de Irmão geral, pega todos os elementos mesmo os que não são proximos */
+
+h4~p{
+    color: lightskyblue;
+}
