@@ -1,0 +1,30 @@
+/* Utilizado para paginas em Cascata */
+
+/* Herança */
+body{
+    color: rebeccapurple;
+    font-size: 20px ;
+/* Os elementos da div e do h2 não receberam essa propriedade,ele não herda  */
+    border: 1px solid red;
+}
+
+
+/* Especificiade */
+/* Em caso de dois seletores iguais o ultimo prevalece */
+p{
+    /* !important adiciona a preferencia a essa propriedade */
+    color: sienna !important;
+}
+p{
+    color: red;
+}
+/* Seletor mais especifico tem sua formatação aplicada acima da geral que no caso e o * */
+*{
+    color: tomato;
+}
+h2{
+    color: turquoise;
+}
+h2.verde{
+color: green;
+}
