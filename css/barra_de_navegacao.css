@@ -1,0 +1,39 @@
+
+/* ul{
+     */
+    /* Remove as marcações da lista */
+    /* list-style: none;
+    margin: 0;
+    padding: 0;
+} */
+
+/* li{
+    padding: 5px 20px;
+    background: url(../assets/seta.png) no-repeat  left center;
+
+} */
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+ul a{
+    width: 200px;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    /* line-height possui a mesma altura do text-indent e centraliza ele */
+    line-height: 40px;
+    /* Links não são elementos de block, se não for feita essa conversão ele não recebe o tamanho correto */
+    display: block;
+    height: 40px;
+    background: url(../assets/menu.png) no-repeat left bottom ;
+
+}
+ul a:hover{
+    background-position:right bottom;
+    color: #fff;
+}
