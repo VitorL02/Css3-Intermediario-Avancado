@@ -1,0 +1,81 @@
+
+/* Layout liquido não e um layout responsivo e sim um layout que preenche toda a tela e utiliza de porcentagem para definir espaçamentos */
+body{
+
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background:#f2f2f2;
+}
+#container{
+    width: 85%;
+    margin: 0 auto;
+    background: #fff;
+    /* Define a expansão e a redução maxima do layout */
+    min-width: 720px;
+    max-width: 1000px;
+}
+
+#marca{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    background: #225992 url(../assets/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+
+#conteudo{
+    float: right;
+    width: 75%;
+}
+#navegacao{
+    float: left;
+    width: 23%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+#rodape{
+    clear: both;
+    background: #b4b4b4;
+   padding:5px; 
+   text-align: center;
+   font-size: 20px;
+}
+#navegacao ul{
+    list-style: none;
+}
+#conteudo-principal{
+    width: 64%;
+    float: left;
+}
+#conteudo-secundario{
+    float:right;
+    width: 34%;
+    background: #d1d1d1;
+}
+/* #imagem{
+    width: 90%;
+    Esconde o conteudo que ultrapassa o tamanho do container
+    overflow: hidden;
+} */
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul a{
+    text-decoration: none;
+    color:#F75353;
+}
+a:hover{
+  background: #ffbc64;
+}
+img.noticia{
+    width: 96%;
+    padding: 2%;
+    max-width: 600px;
+}
