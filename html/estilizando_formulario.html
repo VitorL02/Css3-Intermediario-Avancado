@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/estilo_form.css">
+    <title>Formulario</title>
+</head>
+        <body>
+                <h2>Estilizando Formulários</h2>
+                <form>
+                    <!-- fieldset agrupa os elementos parecidos e o legend da o nome no cabeçalho mesmos -->
+                    <fieldset>
+                        <legend>Detalhes do Contato</legend>
+                        <div>
+                            <!-- For faz referencia ao id em label -->
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="url">URL:</label>
+                            <input type="url" name="url" id="url">
+                        </div>
+                    </fieldset>
+
+                            <fieldset>
+                                <legend>Comentarios</legend>
+                                <div>
+                                    <label for="mensagem">Mensagem:</label>
+                                    <textarea name="mensagem" id="mensagem"> </textarea>
+                                </div>
+                            </fieldset>
+
+                                    <fieldset>
+                                        <legend>Lembrar de Mim</legend>
+                                       <div>
+                                           <label for="sim">
+                                               <input class= 'radio' type="radio" name="lembrar" id="sim">Sim
+                                           </label>
+                                       </div>
+                                       <div>
+                                        <label for="nao">
+                                            <input class= 'radio' type="radio" name="lembrar" id="nao">Não
+                                        </label>
+                                    </div>
+                                    </fieldset>
+                </form>
+        </body>
+</html>
